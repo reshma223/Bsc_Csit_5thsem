@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of Students</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>List of Students</h1>
+    <p>All the students studying BSc CSIT in Pk</p>
+
+    <ul>
+      <li>Ram</li>
+      <li>Shyam</li>
+      <li>Karan</li>
+    </ul>
+
+    <label for="students">Select a student:</label>
+    <select id="students" name="students">
+      <option value="ram">Ram</option>
+      <option value="shyam">Shyam</option>
+      <option value="karan">Karan</option>
+    </select>
+  </div>
+</body>
+</html>

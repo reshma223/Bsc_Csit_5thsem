@@ -1,0 +1,12 @@
+/* External CSS */
+
+/* Styling for the lists */
+ol, ul {
+    margin: 15px 0;
+}
+
+/* Styling for list items */
+li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}

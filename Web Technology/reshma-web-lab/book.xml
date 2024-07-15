@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+    <title>Introduction to XML</title>
+    <author>John Doe</author>
+    <isbn>1234567890</isbn>
+    <publisher>XYZ Publications</publisher>
+    <edition>1st Edition</edition>
+    <price>29.99</price>
+</book>

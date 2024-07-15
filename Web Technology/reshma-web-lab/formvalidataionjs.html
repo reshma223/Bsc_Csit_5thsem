@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <script type="text/javascript">
+    function validateForm() {
+      // Get form input values
+      var name = document.getElementById("name").value;
+      var number = document.getElementById("number").value;
+      var gender = document.querySelector('input[name="gender"]:checked');
+
+      // Check if name, number, and gender are not empty
+      if (name.trim() === "" || number.trim() === "" || !gender) {
+        // Display an error message
+        alert("Please fill out all fields.");
+        return false; // Prevent form submission
+      }
+
+      // Check if the number is a valid numeric value
+      if (isNaN(number)) {
+        alert("Please enter a valid numeric value for the number.");
+        return false; // Prevent form submission
+      }
+
+      // If all validations pass, allow form submission
+      return true;
+    }
+  </script>
+</head>
+<body>
+
+  <h2>Form Validation</h2>
+
+  <form onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br>
+
+    <label for="number">Number:</label>
+    <input type="text" id="number" name="number" required>
+
+    <br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>

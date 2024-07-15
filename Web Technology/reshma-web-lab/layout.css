@@ -1,0 +1,33 @@
+
+
+heading {
+    
+    color: red;
+}
+
+nav-component {
+    
+    color: orange;
+ }
+ container {
+    
+    display: flex;
+    
+}
+
+first{
+    
+    color: gray; width: 20%;
+}
+
+second {
+    color: green; width: 30%;
+}
+
+third {
+    color: blue; width: 50%;
+}
+
+foot {
+    color: gray;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee>
+    <name>John Doe</name>
+    <address>123 Main Street, Cityville</address>
+    <phone>123-456-7890</phone>
+    <designation>Software Engineer</designation>
+    <salary>60000</salary>
+</employee>
